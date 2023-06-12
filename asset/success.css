@@ -1,0 +1,336 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+.prim-header header {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    isolation: isolate;
+
+    background: #6ECCAF;
+}
+
+.logo_wrapper img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 165px;
+    height: 70px;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+    margin: -10px -10px;
+
+    padding: 0px 20px;
+    background: #6ECCAF;
+}
+
+.head-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.beranda_name {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #344D67;
+}
+
+.beranda_name img {
+    width: 15px;
+    height: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.news_name {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #344D67;
+}
+
+.news_name img {
+    width: 15px;
+    height: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.img-bg {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: -10px;
+    margin-right: -10px;
+
+    margin-top: -200px;
+}
+
+.head_name_wrapper1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.img_logo_wrap2 img{
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.head-wrapper2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text-title h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000;
+}
+
+.text-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: #6ECCAF;
+    height: 350px;
+
+    padding-bottom: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.img_notif img {
+    width: 500px;
+    height: 350px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.desc_notif p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-check a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-check {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: center;
+
+    width: 200px;
+    height: 40px;
+
+    background: #ADE792;
+    border-radius: 20px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.desc_notif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 700px;
+    height: 700px;
+
+    background: #FFFFFF;
+
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.primary_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -180px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #6eccaf;
+    padding: 2rem 4rem 6rem 4rem;
+    display: flex;
+    margin: -10px -10px;
+    
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .logo-kiri {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+  }
+  
+  .footer-upn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .footer-upn p {
+    font-size: 1.25rem;
+    font-weight: normal;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .aduan a {
+    color: #344d67;
+    font-weight: bold;
+  }
+  
+  .aduan {
+    max-width: 20rem;
+  }
+  
+  .temukan-kami {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .temukan-kami a {
+    color: #111;
+  }
+  
+  .copyright {
+    background-color: #6eccaf;
+    padding: 0.25rem 1rem;
+    border-top: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10px -10px;
+  }
+  
+  .copyright p {
+    font-size: 14px;
+    transform: scale(0.8);
+  }

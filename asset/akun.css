@@ -1,0 +1,179 @@
+body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		.judul {
+			margin: 0;
+			padding: 10px;
+			text-align: center;
+			color: white;
+			background-color: #344d67;
+		}
+
+		#header {
+			display: flex;
+			flex-direction: column;
+			margin: 0;
+			padding: 0;
+		}
+
+		.isi {
+			display: flex;
+			padding-left: 150px;
+			padding-top: 30px;
+		}
+
+		.isian {
+			padding: 20px;
+		}
+
+		#user_image {
+			float: left;
+			margin: 2.5%;
+			width: 200px;
+			height: 200px;
+			border: 1px solid gray;
+			border-radius: 100%;
+		}
+
+		#user {
+			float: left;
+			text-transform: uppercase;
+			font-size: 15px;
+			width: 60%;
+			padding: 20px;
+			gap: 20px;
+		}
+
+        img{
+            width: 200px;
+			height: 200px;
+            border: 1px solid gray;
+			border-radius: 100%;
+        }
+
+		label {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: auto;
+		}
+
+		.input {
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			padding: 10px 11px;
+			width: 250px;
+			height: 37px;
+			background-color: #fff;
+			border: 1px solid #000;
+			border-radius: 10px;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: auto;
+			color: rgba(0, 0, 0, 0.5);
+		}
+
+		.wrapper2 {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			padding: 0;
+			gap: 40px;
+			padding: 20px;
+			width: 1080px;
+			height: 60px;
+		}
+
+		.fakultas,
+		.progdi,
+		.gender {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 0;
+			width: 250px;
+			height: 37px;
+		}
+
+		.opsiKelamin,
+		.input_tanggal {
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			padding: 10px 11px;
+			width: 250px;
+			height: 37px;
+			background-color: #fff;
+			border: 1px solid #000;
+			border-radius: 10px;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: auto;
+			color: rgba(0, 0, 0, 0.5);
+		}
+
+		.wrapper3 {
+			display: flex;
+			flex-direction: row;
+			padding: 0px;
+			gap: 40px;
+			padding: 20px;
+			width: 1080px;
+			height: 60px;
+		}
+
+		button {
+			background-color: red;
+			color: white;
+			height: 30px;
+			border-radius: 4px;
+			outline-style: auto;
+			border: 0px solid rgb(0, 0, 0);
+			width: 61%;
+			margin: 0px;
+			letter-spacing: 5px;
+			padding: 2px 0px;
+			text-transform: uppercase;
+		}
+
+		button:hover {
+			background-color: white;
+			color: red;
+		}
+
+		input[type="text"],
+		input[type="email"] {
+			background-color: transparent;
+			box-shadow: 1px 1px 2px 2px rgba(17, 66, 55, 0.4),
+				-1px -1px 2px 2px rgba(17, 66, 55, 0.4);
+			width: 100%;
+			line-height: 2.0;
+			border: 0px solid white;
+			color: #176655;
+			font-size: 15px;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			align-items: center;
+			padding: 50px 0px;
+			gap: 100px;
+			margin-left: 350px;
+			position: relative;
+			width: 800px;
+			height: 700px;
+			top: 238px;
+			background-color: #fff;
+			border-radius: 30px;
+		}
+
+		#admin_information * {
+			margin: 2%;
+		}
